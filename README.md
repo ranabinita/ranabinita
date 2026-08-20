@@ -226,34 +226,6 @@ Every project is an opportunity to learn something new — whether it's debuggin
 
 ---
 
-# 📊 GitHub Stats
-
-<p align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=ranabinita&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" height="180"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ranabinita&layout=compact&theme=tokyonight&hide_border=true" height="180"/>
-
-</p>
-
-<p align="center">
-
-<img src="https://streak-stats.demolab.com?user=ranabinita&theme=tokyonight&hide_border=true" />
-
-</p>
-
----
-
-# 🐍 Contribution Graph
-
-<p align="center">
-
-<img src="https://raw.githubusercontent.com/ranabinita/ranabinita/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" />
-
-</p>
-
----
-
 # 🌱 Currently Building
 
 I'm currently focused on expanding my development portfolio through:
