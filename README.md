@@ -147,7 +147,7 @@ A personal developer portfolio built with **React** to showcase my projects, tec
 * 🚀 Project showcase
 * 💻 Modern frontend development
 
-🔒 **Repository:** Private
+🔒 **[View Repository](https://github.com/ranabinita/react-portfolio)**
 
 ---
 
