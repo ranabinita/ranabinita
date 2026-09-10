@@ -1,262 +1,164 @@
-<table>
-<tr>
-
-<td width="30%" valign="top">
-
-# 👋 About Me
-
-### Binita Rana
-
-🎓 Computer Engineer
-
-🐍 Python & Django Developer
-
-🤖 AI / ML Enthusiast
-
-📊 Data Science Learner
-
-🇳🇵 Nepal
-
----
-
-### 🛠️ Interests
-
-* Artificial Intelligence
-* Machine Learning
-* Data Science
-* Django Development
-* Web Development
-* Software Engineering
-
----
-
-### 💻 Currently Learning
-
-* Advanced Python
-* Machine Learning
-* Data Science
-* React
-* AI-powered applications
-* Backend development
-
----
-
-### ⚡ Focus
-
-**Building practical software and turning ideas into working products.**
-
----
-
-### 🔗 Connect
-
-[GitHub](https://github.com/ranabinita)
-
-</td>
-
-<td width="70%" valign="top">
-
-# 👩‍💻 Hey, I'm Binita!
-
-I'm a **Computer Engineering graduate** passionate about building practical software using **Python, Django, Artificial Intelligence, Machine Learning, and modern web technologies**.
-
-I enjoy taking an idea through:
-
-**💡 Idea → 🧠 Logic → 💻 Code → 🧪 Test → 🚀 Working Product**
-
-I'm particularly interested in building applications that combine **software engineering with AI/ML** to solve practical problems.
-
----
-
-# 🚀 Featured Projects
-
-## 🩺 HealthRisk AI
-
-A personalized health-risk assessment platform combining **Django, Machine Learning, and data analysis**.
-
-**Tech:**
-`Python` `Django` `Scikit-learn` `SQLite` `HTML` `CSS` `JavaScript`
-
-### ✨ Highlights
-
-* 🤖 AI-based health-risk prediction
-* 📊 Interactive health assessment dashboard
-* 📈 Health history and risk analysis
-* 🔐 User authentication
-* 💡 Personalized health recommendations
-* 🧠 Machine-learning integration
-
-🔗 **[View Repository](https://github.com/ranabinita/healthriskai)**
-
----
-
-## 📰 AI Fake News Detector
-
-An AI-powered application that classifies news as **Real or Fake** using Natural Language Processing and machine learning.
-
-**Tech:**
-`Python` `Scikit-learn` `Pandas` `TF-IDF` `Random Forest` `Node.js` `Express` `JavaScript`
-
-### ✨ Highlights
-
-* 🧠 NLP-based text classification
-* 🌲 Random Forest classifier
-* 🔤 TF-IDF feature extraction
-* 📊 ~97.55% classification accuracy
-* 🌐 Web-based interface
-* ⚡ Real-time classification workflow
-
-🔗 **[View Repository](https://github.com/ranabinita/AI_Fake_News_Detector-)**
-
----
-
-## 💼 Accounting Management System
-
-A collaborative web-based **accounting and business management system** designed to manage business operations such as sales, inventory, invoices, customers, and payments.
-
-This is a **collaborative development project**, where I contributed to the development of the application alongside other team members.
-
-**Tech:**
-`Django` `Python` `HTML` `CSS` `JavaScript`
-
-### ✨ Highlights
-
-* 📦 Inventory management
-* 🧾 Invoice management
-* 💰 Sales & payment management
-* 👥 Customer management
-* 🔄 Reusable Django components
-* 🤝 Collaborative software development
-
-🔗 **[View Collaborative Repository](https://github.com/sachinmhj/AccountingManageSys)**
-
----
-
-## 🌐 Personal Portfolio — React
-
-A personal developer portfolio built with **React** to showcase my projects, technical skills, and development journey.
-
-**Tech:**
-`React` `JavaScript` `Tailwind CSS` `HTML` `CSS`
-
-### ✨ Highlights
-
-* ⚛️ React-based frontend
-* 🎨 Modern responsive UI
-* 🧩 Reusable React components
-* 📱 Responsive design
-* 🚀 Project showcase
-* 💻 Modern frontend development
-
-🔒 **[View Repository](https://github.com/ranabinita/react-portfolio)**
-
----
-
-# 🧰 Tech Stack
-
-### 👩‍💻 Languages
-
-<p>
-<img src="https://skillicons.dev/icons?i=python,cpp,javascript,dart,html,css" />
-</p>
-
-### ⚙️ Frameworks & Development
-
-<p>
-<img src="https://skillicons.dev/icons?i=django,react,flutter,nodejs,express,tailwind" />
-</p>
-
-### 🤖 AI / Machine Learning
-
-`Scikit-learn` · `Pandas` · `NumPy` · `TF-IDF` · `Random Forest` · `BERT`
-
-### 🗄️ Database & Tools
-
-<p>
-<img src="https://skillicons.dev/icons?i=sqlite,mysql,git,github,vscode" />
-</p>
-
----
-
-# 🧠 What I'm Exploring
-
-<table>
-<tr>
-<td>🤖 Artificial Intelligence</td>
-<td>📊 Data Science</td>
-</tr>
-<tr>
-<td>🧠 Machine Learning</td>
-<td>🐍 Advanced Python</td>
-</tr>
-<tr>
-<td>🌐 Django Development</td>
-<td>⚛️ React</td>
-</tr>
-<tr>
-<td>🔗 API Development</td>
-<td>🚀 AI-powered Applications</td>
-</tr>
-</table>
-
----
-
-# 🎯 My Goals
-
-🚀 Become a stronger **AI/ML + Software Engineering developer**
-
-📚 Build deeper knowledge in **Machine Learning and Data Science**
-
-🧩 Create more **real-world AI-powered applications**
-
-🌐 Improve my full-stack development skills
-
-🤝 Collaborate with developers and contribute to meaningful projects
-
----
-
-# 💡 Development Philosophy
-
-> **Don't just learn technology. Build something with it.**
-
-Every project is an opportunity to learn something new — whether it's debugging a Django application, integrating a machine-learning model, designing a user interface, or collaborating with other developers.
-
-### My approach:
-
-**Learn → Build → Test → Debug → Improve → Repeat 🚀**
-
----
-
-# 🌱 Currently Building
-
-I'm currently focused on expanding my development portfolio through:
-
-**AI/ML 🤖 + Data Science 📊 + Django 🐍 + React ⚛️**
-
-with a focus on turning concepts into **real-world applications**.
-
----
-
-# 🤝 Let's Connect
-
-<p align="center">
-
-<a href="https://github.com/ranabinita">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-</p>
-
----
-
-<p align="center">
-
-### ✨ Thanks for visiting my profile! ✨
-
-**Learn • Build • Improve • Repeat 🚀**
-
-</p>
-
-</td>
-
-</tr>
-</table>
+{% extends 'backend/base.html' %}
+{% load static %}
+
+{% block title %}Job Applications{% endblock %}
+
+{% block body %}
+<div class="content-page">
+    <div class="content">
+        <div class="container-fluid">
+            
+            <div class="row">
+                <div class="col-12">
+                    <div class="page-title-box">
+                        <h4 class="page-title">Job Applications</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+
+                            {% if messages %}
+                                {% for msg in messages %}
+                                    <div class="alert alert-{{ msg.tags }} alert-dismissible fade show" role="alert">
+                                        {{ msg }}
+                                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                    </div>
+                                {% endfor %}
+                            {% endif %}
+
+                            <div class="row mb-2">
+                                <div class="col-sm-5">
+                                    <a href="{% url 'backend:add_job_application' %}" class="btn btn-info mb-2">
+                                        <i class="mdi mdi-plus-circle me-2"></i>Add Job Application
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="table-responsive">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>ID</th>
+                                            <th>Name</th>
+                                            <th>Country</th>
+                                            <th>Job Position</th>
+                                            <th>Email</th>
+                                            <th>Phone</th>
+                                            <th>Japanese Level</th>
+                                            <th>Experience</th>
+                                            <th>Resume</th>
+                                            <th>Date</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {% for application in applications %}
+                                            <tr>
+                                                <td>{{ forloop.counter }}</td>
+                                                <td>{{ application.full_name }}</td>
+                                                <td>
+                                                    {% if application.country %}
+                                                        {{ application.country.name }}
+                                                    {% else %}
+                                                        <span class="text-muted">General / Unspecified</span>
+                                                    {% endif %}
+                                                </td>
+                                                <td>{{ application.job_title }}</td>
+                                                <td>{{ application.email }}</td>
+                                                <td>{{ application.phone }}</td>
+                                                <td>{{ application.get_japanese_level_display }}</td>
+                                                <td>{{ application.get_experience_display }}</td>
+                                                <td>
+                                                    {% if application.resume %}
+                                                        <a href="{{ application.resume.url }}" target="_blank" class="text-info">View CV</a>
+                                                    {% else %}
+                                                        No CV
+                                                    {% endif %}
+                                                </td>
+                                                <td>{{ application.created_at|date:"Y-m-d" }}</td>
+                                                <td>
+                                                    <a href="{% url 'backend:edit_job_application' application.id %}" class="text-info me-2">
+                                                        <i class="mdi mdi-pencil"></i>
+                                                    </a>
+                                                    <a href="#" class="delete" data-target="#deleteJobApplicationModal{{ application.id }}">
+                                                        <i class="mdi mdi-delete text-danger"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+
+                                            <div class="modal fade" id="deleteJobApplicationModal{{ application.id }}" tabindex="-1" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content custom-modal">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title">Delete Job Application</h5>
+                                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            Are you sure you want to delete the application from "{{ application.full_name }}" for "{{ application.job_title }}"?
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                                            <form method="post" action="{% url 'backend:delete_job_application' application.id %}">
+                                                                {% csrf_token %}
+                                                                <button type="submit" class="btn btn-danger">Delete</button>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        {% empty %}
+                                            <tr>
+                                                <td colspan="11" class="text-center">No job applications found.</td>
+                                            </tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <nav>
+                                <ul class="pagination pagination-rounded mb-0">
+                                    {% if applications.has_previous %}
+                                        <li class="page-item"><a href="?page=1" class="page-link">First</a></li>
+                                        <li class="page-item"><a href="?page={{ applications.previous_page_number }}" class="page-link">Previous</a></li>
+                                    {% endif %}
+
+                                    {% for num in applications.paginator.page_range %}
+                                        <li class="page-item {% if applications.number == num %}active{% endif %}">
+                                            <a href="?page={{ num }}" class="page-link">{{ num }}</a>
+                                        </li>
+                                    {% endfor %}
+
+                                    {% if applications.has_next %}
+                                        <li class="page-item"><a href="?page={{ applications.next_page_number }}" class="page-link">Next</a></li>
+                                        <li class="page-item"><a href="?page={{ applications.paginator.num_pages }}" class="page-link">Last</a></li>
+                                    {% endif %}
+                                </ul>
+                            </nav>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<style>
+.custom-modal { background-color: white; }
+</style>
+
+<script>
+$(document).ready(function () {
+    $('.delete').click(function (e) {
+        e.preventDefault();
+        var modalId = $(this).data('target');
+        $(modalId).modal('show');
+    });
+});
+</script>
+{% endblock %}
