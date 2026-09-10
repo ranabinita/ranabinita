@@ -1,164 +1,108 @@
-{% extends 'backend/base.html' %}
-{% load static %}
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=ff69b4&height=120&section=header&text=Hey,%20I'm%20Binita!%20🌸&fontSize=38&fontColor=ffffff&animation=fadeIn" width="100%" />
+</p>
 
-{% block title %}Job Applications{% endblock %}
+<table>
+<tr>
 
-{% block body %}
-<div class="content-page">
-    <div class="content">
-        <div class="container-fluid">
-            
-            <div class="row">
-                <div class="col-12">
-                    <div class="page-title-box">
-                        <h4 class="page-title">Job Applications</h4>
-                    </div>
-                </div>
-            </div>
+<td width="32%" valign="top">
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="card">
-                        <div class="card-body">
+### <font color="#ff69b4">👋 About Me</font>
 
-                            {% if messages %}
-                                {% for msg in messages %}
-                                    <div class="alert alert-{{ msg.tags }} alert-dismissible fade show" role="alert">
-                                        {{ msg }}
-                                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                                    </div>
-                                {% endfor %}
-                            {% endif %}
+**Binita Rana**  
+🎓 *Computer Engineer* | 🇳🇵 *Nepal*
 
-                            <div class="row mb-2">
-                                <div class="col-sm-5">
-                                    <a href="{% url 'backend:add_job_application' %}" class="btn btn-info mb-2">
-                                        <i class="mdi mdi-plus-circle me-2"></i>Add Job Application
-                                    </a>
-                                </div>
-                            </div>
+<p>
+  <img src="https://img.shields.io/badge/Python%20%26%20Django-ff69b4?style=flat-square&logo=python&logoColor=white" /><br/>
+  <img src="https://img.shields.io/badge/AI%20%2F%20ML%20Enthusiast-d87093?style=flat-square&logo=openai&logoColor=white" /><br/>
+  <img src="https://img.shields.io/badge/Data%20Science-ffb6c1?style=flat-square&logo=jupyter&logoColor=333" />
+</p>
 
-                            <div class="table-responsive">
-                                <table class="table table-striped">
-                                    <thead>
-                                        <tr>
-                                            <th>ID</th>
-                                            <th>Name</th>
-                                            <th>Country</th>
-                                            <th>Job Position</th>
-                                            <th>Email</th>
-                                            <th>Phone</th>
-                                            <th>Japanese Level</th>
-                                            <th>Experience</th>
-                                            <th>Resume</th>
-                                            <th>Date</th>
-                                            <th>Action</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        {% for application in applications %}
-                                            <tr>
-                                                <td>{{ forloop.counter }}</td>
-                                                <td>{{ application.full_name }}</td>
-                                                <td>
-                                                    {% if application.country %}
-                                                        {{ application.country.name }}
-                                                    {% else %}
-                                                        <span class="text-muted">General / Unspecified</span>
-                                                    {% endif %}
-                                                </td>
-                                                <td>{{ application.job_title }}</td>
-                                                <td>{{ application.email }}</td>
-                                                <td>{{ application.phone }}</td>
-                                                <td>{{ application.get_japanese_level_display }}</td>
-                                                <td>{{ application.get_experience_display }}</td>
-                                                <td>
-                                                    {% if application.resume %}
-                                                        <a href="{{ application.resume.url }}" target="_blank" class="text-info">View CV</a>
-                                                    {% else %}
-                                                        No CV
-                                                    {% endif %}
-                                                </td>
-                                                <td>{{ application.created_at|date:"Y-m-d" }}</td>
-                                                <td>
-                                                    <a href="{% url 'backend:edit_job_application' application.id %}" class="text-info me-2">
-                                                        <i class="mdi mdi-pencil"></i>
-                                                    </a>
-                                                    <a href="#" class="delete" data-target="#deleteJobApplicationModal{{ application.id }}">
-                                                        <i class="mdi mdi-delete text-danger"></i>
-                                                    </a>
-                                                </td>
-                                            </tr>
+---
 
-                                            <div class="modal fade" id="deleteJobApplicationModal{{ application.id }}" tabindex="-1" aria-hidden="true">
-                                                <div class="modal-dialog">
-                                                    <div class="modal-content custom-modal">
-                                                        <div class="modal-header">
-                                                            <h5 class="modal-title">Delete Job Application</h5>
-                                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                                        </div>
-                                                        <div class="modal-body">
-                                                            Are you sure you want to delete the application from "{{ application.full_name }}" for "{{ application.job_title }}"?
-                                                        </div>
-                                                        <div class="modal-footer">
-                                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                                                            <form method="post" action="{% url 'backend:delete_job_application' application.id %}">
-                                                                {% csrf_token %}
-                                                                <button type="submit" class="btn btn-danger">Delete</button>
-                                                            </form>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        {% empty %}
-                                            <tr>
-                                                <td colspan="11" class="text-center">No job applications found.</td>
-                                            </tr>
-                                        {% endfor %}
-                                    </tbody>
-                                </table>
-                            </div>
+#### <font color="#ff69b4">💖 Core Focus</font>
+> *"Don't just learn technology. Build something with it."*
 
-                            <nav>
-                                <ul class="pagination pagination-rounded mb-0">
-                                    {% if applications.has_previous %}
-                                        <li class="page-item"><a href="?page=1" class="page-link">First</a></li>
-                                        <li class="page-item"><a href="?page={{ applications.previous_page_number }}" class="page-link">Previous</a></li>
-                                    {% endif %}
+* 🤖 AI/ML & Web Integration
+* 🐍 Django Backend Development
+* ⚛️ Modern React Interfaces
 
-                                    {% for num in applications.paginator.page_range %}
-                                        <li class="page-item {% if applications.number == num %}active{% endif %}">
-                                            <a href="?page={{ num }}" class="page-link">{{ num }}</a>
-                                        </li>
-                                    {% endfor %}
+---
 
-                                    {% if applications.has_next %}
-                                        <li class="page-item"><a href="?page={{ applications.next_page_number }}" class="page-link">Next</a></li>
-                                        <li class="page-item"><a href="?page={{ applications.paginator.num_pages }}" class="page-link">Last</a></li>
-                                    {% endif %}
-                                </ul>
-                            </nav>
+#### <font color="#ff69b4">💌 Connect</font>
+<a href="https://github.com/ranabinita">
+  <img src="https://img.shields.io/badge/GitHub-Profile-ff69b4?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
 
-                        </div>
-                    </div>
-                </div>
-            </div>
+</td>
 
-        </div>
-    </div>
-</div>
+<td width="68%" valign="top">
 
-<style>
-.custom-modal { background-color: white; }
-</style>
+### <font color="#ff69b4">✨ Building Practical AI & Web Products</font>
 
-<script>
-$(document).ready(function () {
-    $('.delete').click(function (e) {
-        e.preventDefault();
-        var modalId = $(this).data('target');
-        $(modalId).modal('show');
-    });
-});
-</script>
-{% endblock %}
+Computer Engineering graduate specializing in **Python, Django, AI/ML, and Full-Stack Web Development**.
+
+`💡 Idea` → `🧠 Logic` → `💻 Code` → `🧪 Test` → `🚀 Product`
+
+---
+
+### <font color="#ff69b4">🚀 Featured Projects</font>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 🩺 <a href="https://github.com/ranabinita/healthriskai"><font color="#ff69b4">HealthRisk AI</font></a>
+AI health-risk assessment dashboard delivering personalized predictions.
+* **Tech:** `Django` `Scikit-Learn` `JS`
+* **Key:** ML health risk predictions & interactive analytics dashboard.
+
+</td>
+<td width="50%" valign="top">
+
+#### 📰 <a href="https://github.com/ranabinita/AI_Fake_News_Detector-"><font color="#ff69b4">Fake News Detector</font></a>
+NLP classification application identifying real vs. fake news.
+* **Tech:** `Python` `Random Forest` `TF-IDF`
+* **Key:** High precision model with **~97.55% accuracy**.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 💼 <a href="https://github.com/sachinmhj/AccountingManageSys"><font color="#ff69b4">Accounting System</font></a>
+Collaborative web application for business and inventory ops.
+* **Tech:** `Django` `Python` `Bootstrap`
+* **Key:** Invoicing, inventory tracking & payment workflows.
+
+</td>
+<td width="50%" valign="top">
+
+#### 🌐 <a href="https://github.com/ranabinita/react-portfolio"><font color="#ff69b4">React Portfolio</font></a>
+Responsive developer portfolio showcasing projects and skills.
+* **Tech:** `React` `Tailwind CSS` `JS`
+* **Key:** Modern UI components & responsive design.
+
+</td>
+</tr>
+</table>
+
+---
+
+### <font color="#ff69b4">🧰 Tech Stack</font>
+
+| Category | Technologies |
+| :--- | :--- |
+| **Languages** | <img src="https://skillicons.dev/icons?i=python,cpp,javascript,html,css" height="26" /> |
+| **Frameworks** | <img src="https://skillicons.dev/icons?i=django,react,nodejs,express,tailwind" height="26" /> |
+| **AI & ML** | `Scikit-Learn` · `Pandas` · `NumPy` · `TF-IDF` · `BERT` |
+| **Tools & DB** | <img src="https://skillicons.dev/icons?i=sqlite,mysql,git,github,vscode" height="26" /> |
+
+</td>
+
+</tr>
+</table>
+
+<p align="center">
+  <font color="#ff69b4"><b>Learn • Build • Improve • Repeat 🚀</b></font>
+</p>
